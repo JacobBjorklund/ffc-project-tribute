@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap%27');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+min-height: 100vh;
+    padding: 3rem;
+}
+
+#front-page {
+background-image: url(img/lil-peep-alex-reside-new-lede.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: flex-start;
+justify-content: flex-end;
+flex-direction: column;
+
+}
+
+
+
+#title {
+color: white;
+font-size: 4rem;
+font-family: Roboto, serif;
+}
+
+
+h2{
+    color: white;
+    font-family: Roboto, serif;
+}
+
+
+#tribute-info {
+background-image: url(img/Screen-Shot-2020-01-06-at-21.46.11-scaled.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+
+
+.box {
+    color: white;
+    background-color: #292929;
+    padding: 3rem;
+    border-radius: 18px;
+    opacity: 0.70;
+    
+
+}
+
+
+h3 {
+    margin-bottom: 12px;
+    font-size: 1.8rem;
+        font-family: Roboto, serif;
+
+}
+
+
+li {
+    font-family: Roboto, serif;
+    color: white;
+    
+}
+
+
+#video {
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    background-size: cover;
+    
+}
+
+
+iframe {
+    height: 80vh;
+    width: 80%;
+}
+
+#image {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+
+#img-caption {
+    font-size: 0.1rem;
+}
+
+
+a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#img-div {
+    width: 1px;
+    height: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+  #iframe1 {
+    background-position: center;
+
+  }
+  iframe {
+    height: 80vh;
+    width: 100%;
+}
+#tribute-info {
+    background-position: center;
+
+  }
+    #front-page {
+    background-position: center;
+
+  }
+}
